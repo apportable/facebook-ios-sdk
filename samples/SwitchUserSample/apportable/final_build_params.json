@@ -1,0 +1,213 @@
+{
+    "xcode_project": "SwitchUserSample.xcodeproj", 
+    "pchs": [
+        "./SwitchUserSample/SwitchUserSample-Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "SwitchUserSample/first.png", 
+            "target": "first.png"
+        }, 
+        {
+            "asset": "SwitchUserSample/second.png", 
+            "target": "second.png"
+        }, 
+        {
+            "asset": "SwitchUserSample/second@2x.png", 
+            "target": "second@2x.png"
+        }, 
+        {
+            "asset": "SwitchUserSample/first@2x.png", 
+            "target": "first@2x.png"
+        }, 
+        {
+            "asset": "SwitchUserSample/SUSettingsViewController_iPhone.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "SwitchUserSample/SUUsingViewController_iPad.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "SwitchUserSample/SUUsingViewController_iPhone.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "SwitchUserSample/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "SwitchUserSample/SUSettingsViewController_iPad.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "SwitchUserSample/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "SwitchUserSample/Icon-72@2x.png", 
+            "target": "Icon-72@2x.png"
+        }, 
+        {
+            "asset": "SwitchUserSample/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "SwitchUserSample/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }
+    ], 
+    "moms": [], 
+    "config": {
+        "URL_SCHEME": [
+            "fb327842977278179", 
+            "fb327842977278179"
+        ], 
+        "APPLICATION_IDENTIFIER": "com.facebook.sdk.samples.switchuser", 
+        "TEMPLATE_VALUES": {
+            "PRODUCT_NAME": "SwitchUserSample", 
+            "EXECUTABLE_NAME": "SwitchUserSample"
+        }, 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "APPLICATION_NAME": "SwitchUserSample", 
+        "APPLICATION_FULL_NAME": "SwitchUserSample"
+    }, 
+    "header_paths": [
+        {
+            "header_path": "SwitchUserSample-generated-files.hmap", 
+            "type": "iquote", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "SwitchUserSample-own-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "SwitchUserSample-all-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "SwitchUserSample-project-headers.hmap", 
+            "type": "iquote", 
+            "hmap": {
+                "SUUsingViewController.h": {
+                    "prefix": "SwitchUserSample/", 
+                    "suffix": "SUUsingViewController.h", 
+                    "key": "SUUsingViewController.h"
+                }, 
+                "SUUserManager.h": {
+                    "prefix": "SwitchUserSample/", 
+                    "suffix": "SUUserManager.h", 
+                    "key": "SUUserManager.h"
+                }, 
+                "SwitchUserSample-Prefix.pch": {
+                    "prefix": "SwitchUserSample/", 
+                    "suffix": "SwitchUserSample-Prefix.pch", 
+                    "key": "SwitchUserSample-Prefix.pch"
+                }, 
+                "SUProfileTableViewCell.h": {
+                    "prefix": "SwitchUserSample/", 
+                    "suffix": "SUProfileTableViewCell.h", 
+                    "key": "SUProfileTableViewCell.h"
+                }, 
+                "SUSettingsViewController.h": {
+                    "prefix": "SwitchUserSample/", 
+                    "suffix": "SUSettingsViewController.h", 
+                    "key": "SUSettingsViewController.h"
+                }, 
+                "SUAppDelegate.h": {
+                    "prefix": "SwitchUserSample/", 
+                    "suffix": "SUAppDelegate.h", 
+                    "key": "SUAppDelegate.h"
+                }
+            }
+        }
+    ], 
+    "modules": [], 
+    "sources": [
+        {
+            "source": "SwitchUserSample/main.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "SwitchUserSample/SUAppDelegate.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "SwitchUserSample/SUUsingViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "SwitchUserSample/SUSettingsViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "SwitchUserSample/SUProfileTableViewCell.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "SwitchUserSample/SUUserManager.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fwritable-strings", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "infoplists": [
+        "./SwitchUserSample/SwitchUserSample-Info.plist"
+    ], 
+    "deps": [
+        "UIKit", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "FacebookSDK"
+    ], 
+    "type": "app", 
+    "defines": {
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40300, 
+        "NS_BLOCK_ASSERTIONS": 1
+    }
+}

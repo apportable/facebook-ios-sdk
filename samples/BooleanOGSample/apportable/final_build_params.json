@@ -1,0 +1,197 @@
+{
+    "xcode_project": "BooleanOGSample.xcodeproj", 
+    "pchs": [
+        "./BooleanOGSample/BooleanOGSample-Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "BooleanOGSample/en.lproj/BOGFirstViewController_iPhone.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "BooleanOGSample/first.png", 
+            "target": "first.png"
+        }, 
+        {
+            "asset": "BooleanOGSample/first@2x.png", 
+            "target": "first@2x.png"
+        }, 
+        {
+            "asset": "BooleanOGSample/second.png", 
+            "target": "second.png"
+        }, 
+        {
+            "asset": "BooleanOGSample/en.lproj/BOGFirstViewController_iPad.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "BooleanOGSample/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "BooleanOGSample/second@2x.png", 
+            "target": "second@2x.png"
+        }, 
+        {
+            "asset": "BooleanOGSample/en.lproj/BOGSecondViewController_iPhone.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "BooleanOGSample/en.lproj/BOGSecondViewController_iPad.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "BooleanOGSample/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "BooleanOGSample/Icon-72@2x.png", 
+            "target": "Icon-72@2x.png"
+        }, 
+        {
+            "asset": "BooleanOGSample/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "BooleanOGSample/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }
+    ], 
+    "moms": [], 
+    "config": {
+        "FEATURES": [
+            "portrait"
+        ], 
+        "URL_SCHEME": [
+            "fb369258453126794", 
+            "fb369258453126794"
+        ], 
+        "APPLICATION_IDENTIFIER": "com.facebook.sdk.samples.booleanog", 
+        "TEMPLATE_VALUES": {
+            "PRODUCT_NAME": "BooleanOGSample", 
+            "EXECUTABLE_NAME": "BooleanOGSample"
+        }, 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "APPLICATION_NAME": "BooleanOGSample", 
+        "APPLICATION_FULL_NAME": "BooleanOGSample"
+    }, 
+    "header_paths": [
+        {
+            "header_path": "BooleanOGSample-generated-files.hmap", 
+            "type": "iquote", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "BooleanOGSample-own-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "BooleanOGSample-all-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "BooleanOGSample-project-headers.hmap", 
+            "type": "iquote", 
+            "hmap": {
+                "BooleanOGSample-Prefix.pch": {
+                    "prefix": "BooleanOGSample/", 
+                    "suffix": "BooleanOGSample-Prefix.pch", 
+                    "key": "BooleanOGSample-Prefix.pch"
+                }, 
+                "BOGSecondViewController.h": {
+                    "prefix": "BooleanOGSample/", 
+                    "suffix": "BOGSecondViewController.h", 
+                    "key": "BOGSecondViewController.h"
+                }, 
+                "BOGAppDelegate.h": {
+                    "prefix": "BooleanOGSample/", 
+                    "suffix": "BOGAppDelegate.h", 
+                    "key": "BOGAppDelegate.h"
+                }, 
+                "BOGFirstViewController.h": {
+                    "prefix": "BooleanOGSample/", 
+                    "suffix": "BOGFirstViewController.h", 
+                    "key": "BOGFirstViewController.h"
+                }, 
+                "OGProtocols.h": {
+                    "prefix": "BooleanOGSample/", 
+                    "suffix": "OGProtocols.h", 
+                    "key": "OGProtocols.h"
+                }
+            }
+        }
+    ], 
+    "modules": [], 
+    "sources": [
+        {
+            "source": "BooleanOGSample/BOGSecondViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "BooleanOGSample/BOGAppDelegate.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "BooleanOGSample/BOGFirstViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "BooleanOGSample/main.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fwritable-strings", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wno-deprecated-declarations", 
+        "-Wmissing-prototypes", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "infoplists": [
+        "./BooleanOGSample/BooleanOGSample-Info.plist"
+    ], 
+    "deps": [
+        "UIKit", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "FacebookSDK"
+    ], 
+    "type": "app", 
+    "defines": {
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40300, 
+        "NS_BLOCK_ASSERTIONS": 1
+    }
+}

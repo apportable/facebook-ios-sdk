@@ -1,0 +1,429 @@
+{
+    "xcode_project": "Hackbook.xcodeproj", 
+    "pchs": [
+        "./Hackbook/Hackbook-Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "Hackbook/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "Hackbook/MenuButton.png", 
+            "target": "MenuButton.png"
+        }, 
+        {
+            "asset": "Hackbook/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/en.lproj/MainWindow.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "Hackbook/iPad/en.lproj/MainWindow-iPad.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "Hackbook/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Hackbook/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "Hackbook/MenuButton@2x.png", 
+            "target": "MenuButton@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/Icon-72@2x.png", 
+            "target": "Icon-72@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "Hackbook/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginNormal.png", 
+            "target": "FBConnect.bundle/images/LoginNormal.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginNormal@2x.png", 
+            "target": "FBConnect.bundle/images/LoginNormal@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginPressed.png", 
+            "target": "FBConnect.bundle/images/LoginPressed.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginPressed@2x.png", 
+            "target": "FBConnect.bundle/images/LoginPressed@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginWithFacebookNormal.png", 
+            "target": "FBConnect.bundle/images/LoginWithFacebookNormal.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginWithFacebookNormal@2x.png", 
+            "target": "FBConnect.bundle/images/LoginWithFacebookNormal@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginWithFacebookPressed.png", 
+            "target": "FBConnect.bundle/images/LoginWithFacebookPressed.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LoginWithFacebookPressed@2x.png", 
+            "target": "FBConnect.bundle/images/LoginWithFacebookPressed@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LogoutNormal.png", 
+            "target": "FBConnect.bundle/images/LogoutNormal.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LogoutNormal@2x.png", 
+            "target": "FBConnect.bundle/images/LogoutNormal@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LogoutPressed.png", 
+            "target": "FBConnect.bundle/images/LogoutPressed.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/LogoutPressed@2x.png", 
+            "target": "FBConnect.bundle/images/LogoutPressed@2x.png"
+        }, 
+        {
+            "asset": "Hackbook/FBConnect.bundle/images/runaround_image.jpg", 
+            "target": "FBConnect.bundle/images/runaround_image.jpg"
+        }
+    ], 
+    "moms": [], 
+    "config": {
+        "FEATURES": [
+            "portrait"
+        ], 
+        "URL_SCHEME": [
+            "fb210849718975311", 
+            "fb210849718975311"
+        ], 
+        "APPLICATION_IDENTIFIER": "com.facebook.samples.Hackbook", 
+        "TEMPLATE_VALUES": {
+            "PRODUCT_NAME": "Hackbook", 
+            "EXECUTABLE_NAME": "Hackbook"
+        }, 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "APPLICATION_NAME": "Hackbook", 
+        "APPLICATION_FULL_NAME": "Hackbook"
+    }, 
+    "header_paths": [
+        {
+            "header_path": "Hackbook-generated-files.hmap", 
+            "type": "iquote", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "Hackbook-own-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "Hackbook-all-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "Hackbook-project-headers.hmap", 
+            "type": "iquote", 
+            "hmap": {
+                "SBJsonBase.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "SBJsonBase.h", 
+                    "key": "SBJsonBase.h"
+                }, 
+                "FBRequestConnection.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBRequestConnection.h", 
+                    "key": "FBRequestConnection.h"
+                }, 
+                "FBSession.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBSession.h", 
+                    "key": "FBSession.h"
+                }, 
+                "FBDataDiskCache.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBDataDiskCache.h", 
+                    "key": "FBDataDiskCache.h"
+                }, 
+                "FBGraphLocation.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBGraphLocation.h", 
+                    "key": "FBGraphLocation.h"
+                }, 
+                "FBProfilePictureView.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBProfilePictureView.h", 
+                    "key": "FBProfilePictureView.h"
+                }, 
+                "FBFriendPickerViewController.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBFriendPickerViewController.h", 
+                    "key": "FBFriendPickerViewController.h"
+                }, 
+                "SBJsonParser.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "SBJsonParser.h", 
+                    "key": "SBJsonParser.h"
+                }, 
+                "Hackbook-Prefix.pch": {
+                    "prefix": "Hackbook/", 
+                    "suffix": "Hackbook-Prefix.pch", 
+                    "key": "Hackbook-Prefix.pch"
+                }, 
+                "FBURLConnection.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBURLConnection.h", 
+                    "key": "FBURLConnection.h"
+                }, 
+                "FBUtility.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBUtility.h", 
+                    "key": "FBUtility.h"
+                }, 
+                "FBOpenGraphAction.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBOpenGraphAction.h", 
+                    "key": "FBOpenGraphAction.h"
+                }, 
+                "APIResultsViewController.h": {
+                    "prefix": "Hackbook/", 
+                    "suffix": "APIResultsViewController.h", 
+                    "key": "APIResultsViewController.h"
+                }, 
+                "Facebook.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "Facebook.h", 
+                    "key": "Facebook.h"
+                }, 
+                "FBFrictionlessRequestSettings.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBFrictionlessRequestSettings.h", 
+                    "key": "FBFrictionlessRequestSettings.h"
+                }, 
+                "FBGraphObjectTableSelection.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBGraphObjectTableSelection.h", 
+                    "key": "FBGraphObjectTableSelection.h"
+                }, 
+                "FBError.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBError.h", 
+                    "key": "FBError.h"
+                }, 
+                "FBRequestBody.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBRequestBody.h", 
+                    "key": "FBRequestBody.h"
+                }, 
+                "FBGraphUser.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBGraphUser.h", 
+                    "key": "FBGraphUser.h"
+                }, 
+                "DataSet.h": {
+                    "prefix": "Hackbook/", 
+                    "suffix": "DataSet.h", 
+                    "key": "DataSet.h"
+                }, 
+                "FBDialog.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBDialog.h", 
+                    "key": "FBDialog.h"
+                }, 
+                "NSObject+SBJSON.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "NSObject+SBJSON.h", 
+                    "key": "NSObject+SBJSON.h"
+                }, 
+                "JSON.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "JSON.h", 
+                    "key": "JSON.h"
+                }, 
+                "HackbookAppDelegate.h": {
+                    "prefix": "Hackbook/", 
+                    "suffix": "HackbookAppDelegate.h", 
+                    "key": "HackbookAppDelegate.h"
+                }, 
+                "FacebookSDK.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FacebookSDK.h", 
+                    "key": "FacebookSDK.h"
+                }, 
+                "FBCacheDescriptor.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBCacheDescriptor.h", 
+                    "key": "FBCacheDescriptor.h"
+                }, 
+                "FBLoginDialog.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBLoginDialog.h", 
+                    "key": "FBLoginDialog.h"
+                }, 
+                "FBConnect.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBConnect.h", 
+                    "key": "FBConnect.h"
+                }, 
+                "SBJsonWriter.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "SBJsonWriter.h", 
+                    "key": "SBJsonWriter.h"
+                }, 
+                "FBRequest.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBRequest.h", 
+                    "key": "FBRequest.h"
+                }, 
+                "FBGraphPlace.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBGraphPlace.h", 
+                    "key": "FBGraphPlace.h"
+                }, 
+                "FBSessionTokenCachingStrategy.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBSessionTokenCachingStrategy.h", 
+                    "key": "FBSessionTokenCachingStrategy.h"
+                }, 
+                "FBGraphObjectTableDataSource.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBGraphObjectTableDataSource.h", 
+                    "key": "FBGraphObjectTableDataSource.h"
+                }, 
+                "RootViewController.h": {
+                    "prefix": "Hackbook/", 
+                    "suffix": "RootViewController.h", 
+                    "key": "RootViewController.h"
+                }, 
+                "APICallsViewController.h": {
+                    "prefix": "Hackbook/", 
+                    "suffix": "APICallsViewController.h", 
+                    "key": "APICallsViewController.h"
+                }, 
+                "FBGraphObject.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBGraphObject.h", 
+                    "key": "FBGraphObject.h"
+                }, 
+                "SBJSON.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "SBJSON.h", 
+                    "key": "SBJSON.h"
+                }, 
+                "FBSession+Internal.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBSession+Internal.h", 
+                    "key": "FBSession+Internal.h"
+                }, 
+                "FBSessionManualTokenCachingStrategy.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "FBSessionManualTokenCachingStrategy.h", 
+                    "key": "FBSessionManualTokenCachingStrategy.h"
+                }, 
+                "NSString+SBJSON.h": {
+                    "prefix": "../../build/FacebookSDK.framework/Versions/A/DeprecatedHeaders/", 
+                    "suffix": "NSString+SBJSON.h", 
+                    "key": "NSString+SBJSON.h"
+                }
+            }
+        }
+    ], 
+    "modules": [], 
+    "sources": [
+        {
+            "source": "Hackbook/APICallsViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Hackbook/DataSet.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Hackbook/RootViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Hackbook/HackbookAppDelegate.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Hackbook/main.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Hackbook/APIResultsViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fwritable-strings", 
+        "-fasm-blocks", 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "infoplists": [
+        "./Hackbook/Hackbook-Info.plist"
+    ], 
+    "deps": [
+        "UIKit", 
+        "CoreLocation", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "FacebookSDK"
+    ], 
+    "type": "app", 
+    "defines": {
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000, 
+        "NS_BLOCK_ASSERTIONS": 1
+    }
+}
